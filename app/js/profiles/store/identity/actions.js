@@ -14,7 +14,7 @@ import {
 import { DEFAULT_PROFILE,
   fetchProfileLocations } from '@utils/profile-utils'
 import { calculateTrustLevel } from '@utils/account-utils'
-import { AccountActions } from '../../../account/store/account'
+import AccountActions from '../../../account/store/account/actions'
 import { isWebAppBuild } from '@utils/window-utils'
 
 
